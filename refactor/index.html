@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Refactor me, please!</title>
+</head>
+
+<body>
+    <h2 class="header__title">Fix this ugly code!</h2>
+
+    <p class="content__text">
+        This page is full of violations of the DRY principle (Don't Repeat Yourself) along with a number of other violations of HTML markup best practices.
+    </p>
+
+    <p class="content__text">
+        Your goal is to refactor the HTML, CSS and JavaScript on this page so that you have:
+    <pre>
+    1. a clear separation of concerns between HTML, CSS and JavaScript
+    </pre>
+    </p>
+
+    <p><span class="content__link js-toggle_links">Click Here to See Suggested Refactoring Path!</span></p>
+
+
+    <ol class="list hidden js-toggle_list">
+        <li class="list__item">Refactor <span class="list__item--highlighted">inline styles</span>.</li>
+        <li class="list__item">Refactor <span class="list__item--highlighted">duplication</span> that exists in the inline style tags.
+        </li>
+        <li class="list__item">Refactor <span class="list__item--highlighted">markup</span> to use appropriate html elements.
+        </li>
+        <li class="list__item">Refactor <span class="list__item--highlighted">styles</span> to eliminate the property duplication.
+        </li>
+        <li class="list__item">Refactor <span class="list__item--highlighted">javascript</span> to eliminate inline click handler.
+        </li>
+    </ol>
+
+    <div class="footer__note">
+        While there a number of tools available that can assist in making this refactoring easier I want to challenge you to do this refactor with nothing but your brain and a text editor.
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

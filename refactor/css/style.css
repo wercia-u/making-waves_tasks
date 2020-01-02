@@ -1,0 +1,29 @@
+.header__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0; }
+
+.content__text {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #000; }
+.content__link {
+  color: #0000FF;
+  text-decoration: underline;
+  cursor: pointer; }
+
+.list.hidden {
+  visibility: hidden; }
+.list__item {
+  text-indent: 10px; }
+  .list__item--highlighted {
+    font-weight: bold;
+    color: blue;
+    display: inline; }
+
+.footer__note {
+  color: #00FFFF;
+  background: #0000FF;
+  padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

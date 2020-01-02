@@ -1,0 +1,39 @@
+.header{
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+    }
+}
+.content {
+    &__text {
+        font-style: italic;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    &__link {
+        color: #0000FF;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.list {
+    &.hidden {
+        visibility: hidden;
+    }
+    &__item {
+        text-indent: 10px;
+        &--highlighted {
+            font-weight: bold; 
+            color: blue; 
+            display: inline;
+        }
+    }
+}
+.footer {
+    &__note {
+        color: #00FFFF; 
+        background: #0000FF; 
+        padding: 10px;
+    }
+}
