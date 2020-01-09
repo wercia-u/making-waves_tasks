@@ -342,7 +342,8 @@ nav {
     padding: 15px;
     background: #fff;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+            box-sizing: border-box;
+    border: 2px solid #FABBC0; }
     @media only screen and (min-width: 640px) {
       .newsletter form {
         width: 450px; } }
